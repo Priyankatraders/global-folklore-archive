@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Submit a Story</title>
+    <title>Submit a Tale</title>
     <meta charset="UTF-8">
-    <meta name="description" content="Share your folklore tales with the Global Folklore Archive.">
+    <meta name="description" content="Submit your own folklore tale to the Global Folklore Archive.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,10 +15,29 @@
         <a href="support.html">Support</a>
     </nav>
     <div class="container">
-        <h1>Submit a Story</h1>
+        <h1>Submit a Tale</h1>
         <div class="header-image"></div>
-        <p>Have a tale from your culture or family? I’d love to add it to the archive! Please email your story to <a href="mailto:your.email@example.com">your.email@example.com</a> with the title, region, and a brief description. I’ll review and post it here.</p>
-        <p>Note: Submissions are manually added—check back to see yours!</p>
+        <p>Do you know a folklore tale that deserves to be shared? Whether it’s a family legend, a local myth, or a story from your culture, we’d love to hear it! Your submission helps preserve these tales for future generations. Fill out the form below to add your story to the Global Folklore Archive.</p>
+        <p><strong>Why Share?</strong> Every tale adds to the rich tapestry of global folklore. You’ll be credited for your contribution, and your story might inspire others around the world!</p>
+
+        <h2>Submit Your Folklore Tale</h2>
+        <form action="mailto:your.email@example.com" method="post" enctype="text/plain">
+            <label for="name">Your Name (optional):</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+            <label for="title">Story Title:</label><br>
+            <input type="text" id="title" name="title" placeholder="e.g., The Ghost of the Forest" required><br><br>
+
+            <label for="region">Region/Culture:</label><br>
+            <input type="text" id="region" name="region" placeholder="e.g., Ireland, Cherokee, Gullah" required><br><br>
+
+            <label for="story">Your Story (100-150 words):</label><br>
+            <textarea id="story" name="story" rows="6" cols="50" placeholder="Tell us the tale..." required></textarea><br><br>
+
+            <input type="submit" value="Submit Your Tale">
+        </form>
+
+        <p>After submitting, we’ll review your tale and add it to the archive with credit to you. Thank you for contributing!</p>
     </div>
 </body>
 </html>
