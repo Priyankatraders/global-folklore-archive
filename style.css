@@ -1,1 +1,64 @@
-sty
+/* Reset default styles for consistency */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+    background-color: #f5f1e9; /* Parchment-like background */
+    color: #2f4f4f; /* Dark slate green text */
+    line-height: 1.6;
+}
+
+/* Center content with a max width */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+h1 {
+    color: #8b4513; /* Saddle brown for titles */
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #d4a017; /* Gold for story titles */
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 1.1em;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #2f4f4f; /* Dark slate green */
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #f5f1e9; /* Parchment text */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    color: #d4a017; /* Gold on hover */
+}
+
+/* Links within content */
+a {
+    color: #8b4513; /* Saddle brown */
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #d4a017; /* Gold on hover */
+}
