@@ -20,17 +20,16 @@ body {
 
 /* Header styles */
 h1 {
-    color: #8b4513; /* Saddle brown for titles */
+    color: #8b4513;
     text-align: center;
     font-size: 2.5em;
     margin-bottom: 20px;
-    /* Optional header image - uncomment if you confirm */
-    /* background-image: url('header-image.jpg'); */
-    /* background-size: cover; */
-    /* padding-top: 50px; */
-    /* height: 100px; */
+    background-image: url('header-image.jpg'); /* Update this line */
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px;
+    height: 150px;
 }
-
 h2 {
     color: #d4a017; /* Gold for story titles */
     font-size: 1.8em;
