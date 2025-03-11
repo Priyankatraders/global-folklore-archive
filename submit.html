@@ -21,7 +21,10 @@
         <p><strong>Why Share?</strong> Every tale adds to the rich tapestry of global folklore. You’ll be credited for your contribution, and your story might inspire others around the world!</p>
 
         <h2>Submit Your Folklore Tale</h2>
-        <form action="mailto:priyankatiwaritrader@gmail.com" method="post" enctype="text/plain">
+        <div id="thank-you-message" style="display: none; color: #d4a017; font-weight: bold; text-align: center; margin: 20px 0;">
+            Thank you for submitting your tale! We’ll review it and add it to the archive soon.
+        </div>
+        <form id="submission-form" action="mailto:your.email@example.com" method="post" enctype="text/plain" onsubmit="showThankYou()">
             <label for="name">Your Name (optional):</label><br>
             <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
 
@@ -39,5 +42,12 @@
 
         <p>After submitting, we’ll review your tale and add it to the archive with credit to you. Thank you for contributing!</p>
     </div>
+
+    <script>
+        function showThankYou() {
+            document.getElementById('thank-you-message').style.display = 'block';
+            document.getElementById('submission-form').style.display = 'none'; // Hide the form after submission
+        }
+    </script>
 </body>
 </html>
