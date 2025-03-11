@@ -8,11 +8,14 @@ body {
     line-height: 1.6;
 }
 
-/* Center content with a max width */
+/* Center content with a max width and improved padding */
 .container {
     max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fffaf0; /* Slightly off-white for contrast */
+    border: 2px dotted #8b4513; /* Subtle brown dotted border */
+    border-radius: 10px; /* Rounded corners for a soft look */
 }
 
 /* Header styles */
@@ -20,33 +23,42 @@ h1 {
     color: #8b4513; /* Saddle brown for titles */
     text-align: center;
     font-size: 2.5em;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    /* Optional header image - uncomment if you confirm */
+    /* background-image: url('header-image.jpg'); */
+    /* background-size: cover; */
+    /* padding-top: 50px; */
+    /* height: 100px; */
 }
 
 h2 {
     color: #d4a017; /* Gold for story titles */
     font-size: 1.8em;
-    margin-top: 20px;
+    margin-top: 25px;
+    border-bottom: 1px solid #d4a017; /* Gold underline */
 }
 
 /* Paragraph styles */
 p {
     font-size: 1.1em;
+    margin-bottom: 15px;
 }
 
 /* Navigation bar */
 nav {
     background-color: #2f4f4f; /* Dark slate green */
-    padding: 10px 0;
+    padding: 15px 0;
     text-align: center;
     margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 nav a {
     color: #f5f1e9; /* Parchment text */
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 20px;
     font-size: 1.1em;
+    transition: color 0.3s; /* Smooth hover effect */
 }
 
 nav a:hover {
@@ -57,8 +69,16 @@ nav a:hover {
 a {
     color: #8b4513; /* Saddle brown */
     text-decoration: underline;
+    transition: color 0.3s; /* Smooth hover effect */
 }
 
 a:hover {
     color: #d4a017; /* Gold on hover */
 }
+
+/* Optional background pattern - uncomment if you confirm */
+/* body {
+    background-image: url('parchment-pattern.png');
+    background-repeat: repeat;
+    background-size: 200px;
+} */
